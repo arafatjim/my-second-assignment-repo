@@ -145,10 +145,12 @@ span{
 }
 .banner2{
           display: flex;
+          width: 80%;
+          height: auto;
           justify-content: space-between;
           align-items: center;
-          width: 90%;
-          height: 100%;
+          margin: 50px auto;
+          margin-left: 10%;
 }
 .banner2-text{
           background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -162,6 +164,10 @@ span{
           font-weight: 700;
 
 }
+.banner2-img{
+          width: 60%;
+          height: 100%;
+}
 .btn-3{
           display: inline-flex;
           align-items: flex-start;
@@ -172,6 +178,76 @@ span{
           border: none;
           border-radius: 48px;
           color: white;
+}
+.cards{
+          display: flex;
+          width: 100%;
+          height: 100%;
+          justify-content: space-around;
+          align-items: center;
+}
+.card-title{
+          text-align: center;
+          font-size: 3rem;
+          font-weight: 700;
+          margin: 30px;
+}
+.card-title p{
+          text-align: center;
+          font-size: 1rem;
+          font-weight: 500;
+}
+.card p{
+          width: 90%;
+          height: 100%;
+}
+.download{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+          height: 100%;
+          gap: 150px;
+          margin: 50px auto;
+}
+.download-title{
+          text-align: right;
+          font-size: 3rem;
+          font-weight: 700;
+}
+.download-title p{
+          font-size: 1rem;
+
+}
+.download-img{
+          position: relative;
+}
+.img2{
+          margin-top: -200px;
+          margin-left: -120px;
+}
+.play-game{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 80%;
+          height: 100%;
+          margin: 10px auto;
+          gap: 30px;
+          text-align: right;
+}
+.play-game-title h1{
+          font-size: 3rem;
+}
+.play-game-title p{
+          font-size: .9rem;
+}
+.play-game-img{
+          position: relative;
+}
+.play-game-img2{
+          margin-top: -200px;
+          margin-left: -120px;
 }
 @media screen and (max-width:576px) {
           /* header{
@@ -256,8 +332,8 @@ span{
                     height: 100%;
           }
           .banner2-img img{
-                    width: 80%;
-                    height: auto;
+                    width: 90%;
+                    height: 100%;
                     margin: 0 10%;
 
           }
@@ -266,9 +342,91 @@ span{
                     flex-direction: column;
                     align-items: center;
                     text-align: center;
+                    width: 100%;
+                    height: 100%;
+                    margin: 20px auto;
+          }
+          .cards{
+                    display:grid;
+                    grid-template-columns: 1fr;
+                    width: 80%;
+                    height: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 30px auto;
+                    gap: 20px;
+          }
+          .card-title{
+                    display: block;
+                    text-align: center;
+                    font-size: 1rem;
+                    font-weight: 700;
+                    margin: 30px;
+          }
+          .card-title p{
+                    display: block;
+                    text-align: center;
+                    font-size: .6rem;
+                    font-weight: 500;
+          }
+          .card p{
+                    font-size: .8rem;
+                    text-align: center;
+                    align-items: center;
+          }
+          .download{
+                    flex-direction: column;
+                    width: 70%;
+                    height: 100%;
+                    gap: 10px;
+                    
+          }
+          .img1 {
+                    width: 100%;
+                    height: 100%;
+
+          }
+          .img2{
+                    width: 40%;
+                    height: 40%;
+                    position: relative;
+                    margin-top: -100px;
+                    margin-left: -50px;
+                    
+          }
+          .download-title h1{
+                    text-align: center;
+                    font-size: 2rem;
+          }
+          .download-title p{
+                    text-align: center;
+                    font-size: .8rem;
+          }
+          .play-game-title{
+                    text-align: center;
+
+          }
+          .play-game{
+                    flex-direction:column-reverse;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 80%;
+                    height: 100%;
+                    margin: 10px auto;
+                    gap: 15px;
+          }
+          .play-game-img{
+                    position: relative;
+          }
+          .play-game-img1{
                     width: 90%;
                     height: 100%;
-                    margin: 0 auto;
           }
-
+          .play-game-img2{
+                    width:35%;
+                    height: 10%;
+                    position: relative;
+                    margin-top: -100px;
+                    margin-right: 240px;
+          }
 }
