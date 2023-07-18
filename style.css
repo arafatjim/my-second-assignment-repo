@@ -63,7 +63,7 @@ span{
           padding: 10px 20px;
           cursor: pointer;
 }
-.nav-right p{
+.nav-right p, .banner2-title p{
           font-size: 1rem;
 }
 .banner{
@@ -79,7 +79,8 @@ span{
           display: block;
           width: 40%;
           height: 100%;
-          align-items: center;
+          align-items:center;
+          text-align: left;
           background-image: url('./images/Group\ 14.png');
           background-size:contain;
 }
@@ -89,7 +90,11 @@ span{
           font-weight: 600;
           text-transform: uppercase;
 }
-.banner-title h1{
+.banner2-title h4{
+          font-size: 1.5rem;
+          font-weight: 700;
+}
+.banner-text h1 {
           Browse plugins
           G.O.A.T.
           text-align: center;
@@ -125,6 +130,7 @@ span{
           border: none;
           border-radius: 48px;
           gap: 40px;
+          color: white;
 }
 .btn-2{
           display: inline-flex;
@@ -135,6 +141,37 @@ span{
           border-radius: 48px;
           background-color:  #4EC5F7;
           gap: 40px;
+          color: white;
+}
+.banner2{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+          height: 100%;
+}
+.banner2-text{
+          background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+}
+.banner2-title{
+          text-align: right;
+}
+.banner2-title h1{
+          color:#F948B2 ;
+          font-size: 3rem;
+          font-weight: 700;
+
+}
+.btn-3{
+          display: inline-flex;
+          align-items: flex-start;
+          padding: 15px 40px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          background-color: #FF42A5;
+          border: none;
+          border-radius: 48px;
+          color: white;
 }
 @media screen and (max-width:576px) {
           /* header{
@@ -203,6 +240,7 @@ span{
                     width: 100%;
                     height: 80%;
                     margin: 0 10%;
+                    text-align: left;
                     
           }
           .banner-text{
@@ -212,4 +250,25 @@ span{
                     align-items: center;
                     text-align: center;
           }
+          .banner2{
+                    flex-direction: column;
+                    width: 90%;
+                    height: 100%;
+          }
+          .banner2-img img{
+                    width: 80%;
+                    height: auto;
+                    margin: 0 10%;
+
+          }
+          .banner2-title{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    width: 90%;
+                    height: 100%;
+                    margin: 0 auto;
+          }
+
 }
