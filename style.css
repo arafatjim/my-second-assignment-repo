@@ -83,6 +83,7 @@ span{
           text-align: left;
           background-image: url('./images/Group\ 14.png');
           background-size:contain;
+          margin: 0 auto;
 }
 .banner-title h3{
           color:  #0B0223;
@@ -90,13 +91,17 @@ span{
           font-weight: 600;
           text-transform: uppercase;
 }
+.banner2 title{
+          width: 40%;
+          height: 100%;
+          margin-right: -50px;
+}
 .banner2-title h4{
           font-size: 1.5rem;
           font-weight: 700;
 }
 .banner-text h1 {
-          Browse plugins
-          G.O.A.T.
+          
           text-align: center;
           font-family: Work Sans;
           font-size: 95px;
@@ -150,7 +155,8 @@ span{
           justify-content: space-between;
           align-items: center;
           margin: 50px auto;
-          margin-left: 10%;
+          margin: 20px auto;
+          gap: 50px;
 }
 .banner2-text{
           background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -165,7 +171,7 @@ span{
 
 }
 .banner2-img{
-          width: 60%;
+          width: 80%;
           height: 100%;
 }
 .btn-3{
@@ -217,7 +223,7 @@ span{
 }
 .download-title p{
           font-size: 1rem;
-
+          
 }
 .download-img{
           position: relative;
@@ -230,24 +236,209 @@ span{
           display: flex;
           justify-content: space-between;
           align-items: center;
-          width: 80%;
+          width: 100%;
           height: 100%;
           margin: 10px auto;
-          gap: 30px;
+          gap: 50px;
           text-align: right;
+}
+.play-game-title{
+          width: 40%;
+          height: 100%;
+          margin-right: 10%;
 }
 .play-game-title h1{
           font-size: 3rem;
 }
 .play-game-title p{
           font-size: .9rem;
+          width: 80%;
+          text-align: right;
+          padding-left: 20%;
 }
 .play-game-img{
           position: relative;
+          margin-left: 10%;
+          widows: 90%;
+          height: 100%;
+          margin-bottom: 15%;
 }
+
 .play-game-img2{
-          margin-top: -200px;
-          margin-left: -120px;
+          position: relative;
+          margin-bottom: -180px;
+          margin-left: -820px;
+          
+          
+}
+.career{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+          height: 100%;
+          flex-direction: column;
+          
+}
+.career-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+          height: 100%;
+          margin: 50px auto;
+          background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+          text-align: left;
+          gap: 100px;
+          padding-left: 150px;
+          text-align: left;
+}
+.career-place{
+          display: flex;
+          justify-content:space-between;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          gap: 150px;
+}
+.career-title h1{
+          text-align: left;
+          font-size: 3rem;
+          font-weight: 700;
+          color: white;
+          padding-right: 255px;
+}
+.career-text{
+          color: white;
+          font-size: 1rem;
+          font-weight: 400;
+          padding-bottom: 20px;
+}
+.career-place-title, .career-place-city{
+          font-size: 1.25;
+          font-weight: 600;
+          color: white;
+          text-align: left;
+}
+.career-place-city{
+          font-size: 1.25;
+          font-weight: 600;
+          color: white;
+          text-align: right;
+}
+.career-btn{
+          padding: 21px 40px ;
+          background: white;
+          color:#F948B2;
+          font-size: 1.25rem;
+          font-weight: 600;
+          border: none;
+          border-radius:48px;
+          margin-top: 20px;
+          margin-left: -140px;
+}
+.career-container img{
+          width: 100%;
+          height: 100%;
+          margin-bottom: 100px;
+}
+.game-type{
+          display: grid;
+          grid-template-columns: repeat(5,1fr);
+          width: 90%;
+          height: 100%;
+          gap: 50px;
+          margin: 50px auto;
+}
+ .game-box{
+          display: flex;
+          border: none;
+          border-radius: 48px;
+          width: 100%;
+          align-items: center;
+          text-align: center;
+          gap: 10px;
+          
+}
+/* #box-1{
+          border: 2px solid #FF42A5 ;
+          border-radius: 48px;
+          width: 100%;
+          align-items: center;
+          text-align: center;
+          gap: 10px;
+          color: #FF42A5;
+
+} */
+#box2{
+          margin-left: 100px;
+}
+.game-box img{
+          margin: 10px 20px;
+}
+.game-box:hover{
+          border: 2px solid #FF42A5 ;
+          border-radius: 48px;
+          width: 100%;
+          align-items: center;
+          text-align: center;
+          gap: 10px;
+          color: #FF42A5;
+}
+.footer{
+          background-color: black;
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          
+}
+.footer-title{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          margin: 50px auto;
+          gap: 20px;
+}
+.footer-content{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          margin: 20px auto;
+          gap: 100px;
+}
+.footer-img{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 60%;
+          height: 100%;
+          margin: 20px auto;
+          gap: 50px;
+}
+.footer-policy{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 200px;
+          width: 100%;
+          height: 100%;
+          margin: 20px auto;
+          color: rgb(150, 147, 147);
+}
+.footer-copy-right{
+          width: 50%;
+          height: 100%;
+          margin: 20px auto;
+          text-align: center;
+          color: rgb(150, 147, 147);
 }
 @media screen and (max-width:576px) {
           /* header{
@@ -328,8 +519,9 @@ span{
           }
           .banner2{
                     flex-direction: column;
-                    width: 90%;
+                    width: 80%;
                     height: 100%;
+                    margin: 20px auto;
           }
           .banner2-img img{
                     width: 90%;
@@ -353,7 +545,9 @@ span{
                     height: 100%;
                     justify-content: center;
                     align-items: center;
-                    margin: 30px auto;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    margin-left: 80px;
                     gap: 20px;
           }
           .card-title{
@@ -376,14 +570,16 @@ span{
           }
           .download{
                     flex-direction: column;
-                    width: 70%;
+                    width: 80%;
                     height: 100%;
                     gap: 10px;
+                    margin-left: 80px;
                     
           }
           .img1 {
-                    width: 100%;
+                    width: 80%;
                     height: 100%;
+                    
 
           }
           .img2{
@@ -396,37 +592,152 @@ span{
           }
           .download-title h1{
                     text-align: center;
-                    font-size: 2rem;
+                    font-size: 1rem;
+                    width: 80%;
+                    margin-right: 70px;
           }
           .download-title p{
                     text-align: center;
-                    font-size: .8rem;
+                    font-size: .5rem;
+                    
           }
           .play-game-title{
                     text-align: center;
+                    width: 95%;
+                    height: 100%;
+                    margin: 0 auto;
 
+          }
+          .play-game-title p{
+                    text-align: center;
+                    display: inline-block;
+                    margin-left: -80px;
+                    width: 80%;
+                    height: 100%;
           }
           .play-game{
                     flex-direction:column-reverse;
                     justify-content: space-between;
                     align-items: center;
-                    width: 80%;
+                    width: 100%;
                     height: 100%;
-                    margin: 10px auto;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    margin-left: -10px;
                     gap: 15px;
           }
           .play-game-img{
                     position: relative;
+                    width: 90%;
+                    height: 100%;
           }
           .play-game-img1{
                     width: 90%;
                     height: 100%;
+                    margin: 0 auto;
+                    margin-right: 50px;
+                    display: block;
+                    position: relative;
           }
           .play-game-img2{
-                    width:35%;
-                    height: 10%;
+                    width: 40%;
+                    height: 40%;
                     position: relative;
-                    margin-top: -100px;
-                    margin-right: 240px;
+                    margin-bottom: 250px;
+                    margin-right: 5px;
+                    
+                    
+          }
+          .career-container{
+                    flex-direction: column;
+                    align-items: center;
+                    width: 60%;
+                    height: 100%;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    margin-left: 25px;
+          }
+          .career-container img{
+                    width: 100%;
+                    height: 100%;
+                    margin-right:150px ;
+          }
+          .career{
+                    margin-right: 250px;
+                    width: 80%;
+                    height: 100%;
+          }
+          .career-title{
+                    margin-left: 180px;
+          }
+          .career-btn{
+                    padding: 10px 50px;
+                    width: 60%;
+                    height: 100%;
+                    font-size: .6rem;
+                    margin-left: -110px;
+          }
+          .game-type{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    width: 80%;
+                    height: 100%;
+                    gap: 5px;
+                    margin: 10px auto;
+                    justify-content: space-between;
+                    align-items: center;
+          }
+          
+          .game-box,#box2{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    border: none;
+                    border-radius: 48px;
+                    width: 80%;
+                    height: 100%;
+                    align-items: center;
+                    text-align: center;
+                    gap: -300px;
+                    margin: 0 0px;
+                    font-size: .5rem;
+                    
+          }
+          .game-box img{
+                    width: 20px;
+                    height: 20px;
+          }
+          .footer-content{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    width: 60%;
+                    height: 100%;
+                    margin-top: 10px;
+                    margin-bottom:0px;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+          }
+          .footer-img{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    width: 60%;
+                    height: 100%;
+                    margin-top: 10px;
+                    margin-bottom:0px;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+          }
+          .footer-policy{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+                    height: 100%;
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    margin-bottom:0px;
+                    gap: 10px;
           }
 }
