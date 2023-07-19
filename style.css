@@ -171,7 +171,7 @@ span{
 
 }
 .banner2-img{
-          width: 80%;
+          width: 100%;
           height: 100%;
 }
 .btn-3{
@@ -187,16 +187,18 @@ span{
 }
 .cards{
           display: flex;
-          width: 100%;
+          width: 40%;
           height: 100%;
           justify-content: space-around;
           align-items: center;
+          margin-left: 32%;
+         
 }
 .card-title{
           text-align: center;
           font-size: 3rem;
           font-weight: 700;
-          margin: 30px;
+          margin: 40px;
 }
 .card-title p{
           text-align: center;
@@ -206,6 +208,23 @@ span{
 .card p{
           width: 90%;
           height: 100%;
+}
+.game-card{
+          width: 80%;
+          height: 100%;
+          margin: 20px auto;
+}
+.card{
+          width: 60%;
+          height: 100%;
+          margin-right: 90px;
+}
+.card img:hover{
+          border: 4px solid red;
+          background-image: url('./images/play-button.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          border-radius: 20px;
 }
 .download{
           display: flex;
@@ -360,16 +379,7 @@ span{
           gap: 10px;
           
 }
-/* #box-1{
-          border: 2px solid #FF42A5 ;
-          border-radius: 48px;
-          width: 100%;
-          align-items: center;
-          text-align: center;
-          gap: 10px;
-          color: #FF42A5;
 
-} */
 #box2{
           margin-left: 100px;
 }
