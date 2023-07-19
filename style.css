@@ -680,6 +680,9 @@ span{
           .career-title{
                     margin-left: 180px;
           }
+          .career-title h1{
+                    margin-left: 20px;
+          }
           .career-btn{
                     padding: 10px 50px;
                     width: 60%;
